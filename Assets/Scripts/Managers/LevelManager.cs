@@ -63,7 +63,7 @@ public class LevelManager : MonoBehaviour
 
     private void FinishLevel()
     {
-        // Implement your logic for finishing the level here
+        
         Debug.Log("Level Finished!");
 
         // Load the next level scene
@@ -72,7 +72,7 @@ public class LevelManager : MonoBehaviour
 
     private void Update()
     {
-        // Update the timer only if the level is not finished
+        
         if (collectedItems < totalItems)
         {
             currentTime -= Time.deltaTime;

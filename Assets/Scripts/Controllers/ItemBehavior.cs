@@ -16,7 +16,7 @@ public class CollectibleItem : MonoBehaviour
         {
             // Handle item collection here
             levelManager.CollectItem(); // Notify the LevelManager that an item has been collected
-            Debug.Log("haaalllooooo");
+            //Debug.Log("haaalllooooo");
             Destroy(gameObject); // Destroy the collectible item object
         }
     }

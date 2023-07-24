@@ -24,8 +24,8 @@ private void Update()
 
     float loudness = detector.GetLoudnessFromMic() * loudnessSensitivity;
 
-    float minLoudness = 0; // minimum loudness, adjust based on your needs
-    float maxLoudness = 12; // maximum loudness, adjust based on your needs
+    float minLoudness = 0; 
+    float maxLoudness = 12; 
 
 
  if (loudness < threshold)

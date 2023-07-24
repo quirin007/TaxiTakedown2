@@ -28,8 +28,8 @@ public class SnakeMoveLv1 : MonoBehaviour
             loudness = 0;
 
         //Debug.Log(loudness);
-float minLoudness = 0; // minimum loudness, adjust based on your needs
-float maxLoudness = 20; // maximum loudness, adjust based on your needs
+float minLoudness = 0; 
+float maxLoudness = 20; 
 
 // Normalize the loudness value to a value between baseSpeed and maxSpeed
 float newSpeed = ((loudness - minLoudness) / (maxLoudness - minLoudness)) * (maxSpeed - baseSpeed) + baseSpeed;

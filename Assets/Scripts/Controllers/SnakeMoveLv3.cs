@@ -27,8 +27,8 @@ private void Update()
     if (loudness < threshold)
         loudness = 0;
 
-    float minLoudness = 0; // minimum loudness, adjust based on your needs
-    float maxLoudness = 10; // maximum loudness, adjust based on your needs
+    float minLoudness = 0; 
+    float maxLoudness = 10; 
 
     // Normalize the loudness value to a value between -1 and 1
     float normalizedLoudness = Mathf.Clamp((loudness - minLoudness) / (maxLoudness - minLoudness) * 2 - 1, -1f, 1f);
